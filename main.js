@@ -97,7 +97,7 @@ document.addEventListener('DOMContentLoaded', function () {
     }
 
     function renderPieChart(data) {
-        // Supongamos que 'data' es un array con datos de varios países y cada país tiene una propiedad 'region'
+        //hola
         const regions = Array.from(new Set(data.map(country => country.region)));
         const countriesByRegion = regions.map(region => data.filter(country => country.region === region).length);
     
