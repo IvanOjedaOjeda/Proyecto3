@@ -1,14 +1,14 @@
 
 body {
     font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 20px;
-    background-color: rgb(255, 165, 0);
+            margin: 0;
+            padding: 0;
+            background-color: #7FBF7F;
 
     }
 
     header {
-        background-color: #4CAF50;
+        background-color: #4CAF50; 
         color: white;
         text-align: center;
         padding: 20px 0;
@@ -27,6 +27,36 @@ label {
     margin-bottom: 10px;
 }
 
+.search-label {
+    display: block;
+    font-size: 18px; /* Tamaño de fuente */
+    color: #F3F3F3; /* Color del texto */
+    margin-bottom: 10px; /* Espacio inferior */
+    text-align: center; /* Centrar texto */
+}
+
+
+.search-input {
+    width: 80%; 
+    max-width: 400px; 
+    margin: 0 auto; 
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    box-sizing: border-box;
+    display: block; 
+    background-color: #F3F3F3; 
+}
+
+.search-input:focus {
+    outline: none;
+    border-color: #4CAF50;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+
+
 #search-input {
     width: 40%;
     padding: 8px;
@@ -35,7 +65,7 @@ label {
 
 .continent-section {
     margin-bottom: 20px;
- 
+     
 }
 
 .country-card {
